@@ -1,13 +1,12 @@
 cask "mynah" do
-  version "0.3.0"
-  sha256 "6a12379edc0c32ae09a7fd93075675fb88a0dfde8aad8b1f4d9e3bf67b9c4db3"
+  version "0.3.1"
+  sha256 "f5194b030b9597987137505c268e1331886f6660af4c808ce32673e882651466"
 
   url "https://github.com/Artem-Babich/mynah/releases/download/v#{version}/Mynah-#{version}.dmg"
   name "Mynah"
   desc "Local push-to-talk dictation with a live preview bar"
   homepage "https://github.com/Artem-Babich/mynah"
 
-  depends_on arch: :arm64
   depends_on macos: ">= :sonoma"
 
   app "Mynah.app"
