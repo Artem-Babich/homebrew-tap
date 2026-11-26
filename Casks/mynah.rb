@@ -1,6 +1,6 @@
 cask "mynah" do
-  version "0.2.0"
-  sha256 "0b50139f26eea3fbdd38669dfdd3f12970b60c7b39d42052e39ab556b1c14b72"
+  version "0.3.0"
+  sha256 "6a12379edc0c32ae09a7fd93075675fb88a0dfde8aad8b1f4d9e3bf67b9c4db3"
 
   url "https://github.com/Artem-Babich/mynah/releases/download/v#{version}/Mynah-#{version}.dmg"
   name "Mynah"
